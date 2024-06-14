@@ -33,14 +33,7 @@ cube_v2=lambda x:x*x*x
 print(cube(7))
 print(cube_v2(7))
 
-# recursion
-def power(n,p):
-    if p==0:
-        return 1
-    return(n*power(n,p-1))
 
-N=5
-P=3
-print(power(N,P))
+
 
 
